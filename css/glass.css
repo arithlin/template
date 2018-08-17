@@ -1,0 +1,96 @@
+/**/
+.box {
+	min-width: 50%;
+	float: left;
+}
+.tb-pic a {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.tb-pic a img {
+	width: 100%;
+	vertical-align: middle;
+}
+.tb-pic a {
+	*display: block;	
+	*line-height: 1;
+}
+.tb-thumb {
+	margin: 10px 0 0;
+	overflow: hidden;
+	padding-left: 0;
+}
+.tb-thumb li {
+	list-style: none;
+	background: none repeat scroll 0 0 transparent;
+	float: left;
+	width: 84px;
+	height: 84px;
+	border: 1px solid #CDCDCD;
+	margin: 0 6px 6px 0;
+	overflow: hidden;
+		
+}
+.tb-thumb li:hover{
+	border: 1px red solid;
+}
+.tb-s310,
+.tb-s310 a {
+	height: 399px;
+	width: 400px;
+}
+
+.tb-s310,
+.tb-s310 img {
+	max-height: 400px;
+	max-width: 400px;
+}
+.tb-s40,
+.tb-s40 a {
+	height: 84px;
+	width: 84px;
+}
+
+.tb-s40 a img {
+	width: 100%;
+	height: auto;
+}
+
+.tb-booth {	
+	width: 400px;
+	height: 400px;
+	margin-bottom: 4px;
+	position: relative;
+	z-index: 1;
+	border: 1px solid #CDCDCD;
+}
+.tb-thumb .tb-selected {
+	/*background: none repeat scroll 0 0 #C30008;*/
+	width: 84px;
+	height: 84px;
+}
+
+.tb-thumb .tb-selected div {
+	background-color: #FFFFFF;
+	border: medium none;
+}
+.tb-thumb li div img{
+	width: 100%;
+	height: auto;
+}
+div.zoomDiv {
+	z-index: 999;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 400px;
+	height: 400px;
+	background: #ffffff;
+	border: 1px solid #CCCCCC;
+	display: none;
+	text-align: center;
+	overflow: hidden;
+}
+	
